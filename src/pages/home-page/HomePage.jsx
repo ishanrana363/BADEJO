@@ -1,6 +1,7 @@
 import Banner from './Banner'
 import CaseStudy from './CaseStudy'
 import CaseTwo from './CaseTwo'
+import Collaborate from './Collaborate'
 import WorkExperience from './WorkExperience'
 
 const HomePage = () => {
@@ -10,6 +11,7 @@ const HomePage = () => {
             <CaseStudy></CaseStudy>
             <CaseTwo></CaseTwo>
             <WorkExperience></WorkExperience>
+            <Collaborate></Collaborate>
         </div>
     )
 }
