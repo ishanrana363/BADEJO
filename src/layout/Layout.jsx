@@ -7,7 +7,9 @@ const Layout = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <Outlet></Outlet>
+      <div className='bg-[#060608]' >
+        <Outlet></Outlet>
+      </div>
       <Footer></Footer>
     </div>
   )
