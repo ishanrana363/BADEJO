@@ -8,7 +8,9 @@ const Layout = () => {
     <div>
       <Navbar></Navbar>
       <div className='bg-[#060608]' >
-        <Outlet></Outlet>
+        <div className='w-11/12 mx-auto ' >
+          <Outlet></Outlet>
+        </div>
       </div>
       <Footer></Footer>
     </div>
